@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/kasir-mudah/static/css/main.33fabd8c.css",
+    "main.js": "/kasir-mudah/static/js/main.a660efa8.js",
+    "static/media/iklan.png": "/kasir-mudah/static/media/iklan.195626a4021465d4f440.png",
+    "static/media/kiri.png": "/kasir-mudah/static/media/kiri.b7a32b4234973bb4629f.png",
+    "static/media/kanan.png": "/kasir-mudah/static/media/kanan.13ccdc31906a60dc90ca.png",
+    "static/media/logodua.png": "/kasir-mudah/static/media/logodua.efd29b633cacd391d9d8.png",
+    "index.html": "/kasir-mudah/index.html",
+    "main.33fabd8c.css.map": "/kasir-mudah/static/css/main.33fabd8c.css.map",
+    "main.a660efa8.js.map": "/kasir-mudah/static/js/main.a660efa8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33fabd8c.css",
+    "static/js/main.a660efa8.js"
+  ]
+}
