@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'Noto Sans JP', sans-serif;
+  }
+
+:root {
+    --background: #F5F5F5;
+    --bck: #000000;
+    --background-light: #fff;
+    --succes-light: #EEF8E6;
+    --succes-dark: #3C8600;
+    --desc-dark: #870808;
+    --primary-lightest: #E6EFE7;
+    --primary-main: #006210;
+    --secondary-lightest: #F5F5F5;
+    --primary-light: #54965F;
+    --icon-error: #BE0B0B;
+    --color-hr: #006210;
+    --color-text: #454545;
+    --color-total: #595959;
+    --color-rp: #262626;
+    --color-day: #8c8c8c;
+    --color-percentage: #EEF8E6;
+    --color-destructive: #F9E7E7;
+}
+
+.parent-lk {
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 670px;
+    height: 450px;
+    border: 1px solid var(--primary-lightest);
+}
+
+.parent-lk .laporan {
+    display: flex;
+}
+
+.parent-lk .hari {
+    display: flex;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 45px;
+    margin-right: 45px;
+    justify-content: space-between;
+    color: var(--color-day);
+}
+
+.parent-lk .green-saturday {
+    font-weight: 700;
+    color: var(--primary-main);
+}
+
+.parent-lk .laporan .lapke {
+    margin-top: 25px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    color: var(--color-text);
+}
+
+.parent-lk .laporan .day {
+    margin-top: 20px;
+    margin-left: 375px;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--color-day);
+}
+
+.parent-lk .content .income .percentage {
+    text-align: center;
+    background-color: var(--color-percentage);
+    color: var(--succes-dark);
+    width: 65px;
+    font-weight: 700;
+    border-radius: 30px;
+    height: auto;
+}
+
+.parent-lk .content .income .label {
+    color: var(--color-total);
+    font-weight: 700;
+}
+
+.parent-lk .content .income .amount {
+    color: var(--color-rp);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.parent-lk .content .income .horizontal {
+    width: 55px;
+    height: 9px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: var(--color-hr);
+}
+
+.parent-lk .content .vertical {
+    margin-left: 150px;
+    width: 1px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.parent-lk .content .expense .percentage {
+    text-align: center;
+    background-color: var(--color-percentage);
+    color: var(--desc-dark);
+    width: 65px;
+    font-weight: 700;
+    border-radius: 30px;
+    height: auto;
+    background-color: var(--color-destructive);
+}
+
+.parent-lk .content .expense .label {
+    color: var(--color-total);
+    font-weight: 700;
+}
+
+.parent-lk .content .expense .amount {
+    color: var(--color-rp);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.parent-lk .content .expense .horizontal {
+    width: 55px;
+    height: 9px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: var(--primary-light);
+}
